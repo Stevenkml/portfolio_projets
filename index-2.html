@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Steven KAMEL — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#">SK<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">Profil</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#experiences">Expériences</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-glow g1"></div>
+    <div class="hero-glow g2"></div>
+    <div class="dots-grid"></div>
+    <div class="hero-content">
+      <p class="hero-tag fade-up" style="--i:0">Étudiant · Double Licence MIAGE &amp; Gestion</p>
+      <h1 class="hero-name fade-up" style="--i:1">Steven<br><em>KAMEL</em></h1>
+      <p class="hero-role fade-up" style="--i:2">Gestion de projets <span class="hl">IT</span> &amp; Digitalisation</p>
+      <div class="hero-badge fade-up" style="--i:3">
+        🎯&nbsp; Recherche un stage · <strong>1<sup>er</sup> avril 2026</strong> · Paris &amp; Île-de-France
+      </div>
+      <div class="hero-btns fade-up" style="--i:4">
+        <a href="#projets" class="btn-primary">Voir mes projets</a>
+        <a href="#contact" class="btn-ghost">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <div class="about-photo-wrap">
+            <div class="photo-ring"></div>
+            <img src="photo.jpg" alt="Steven KAMEL" class="about-photo"
+              onerror="this.outerHTML='<div class=\'photo-fallback\'>SK</div>'"/>
+          </div>
+          <div class="about-contact-pills">
+            <a href="mailto:stevenkamel05@gmail.com" class="pill">✉ stevenkamel05@gmail.com</a>
+            <a href="tel:0771820205" class="pill">📞 07 71 82 02 05</a>
+            <span class="pill">📍 Paris · Île-de-France</span>
+            <span class="pill">🚗 Permis B · Véhiculé</span>
+          </div>
+        </div>
+        <div class="about-right reveal" style="--delay:0.15s">
+          <p class="section-eyebrow">Profil</p>
+          <h2 class="section-title">Qui suis-je&nbsp;?</h2>
+          <p class="about-bio">
+            Actuellement en troisième année de double licence <strong>MIAGE</strong> (Méthodes Informatiques Appliquées à la Gestion des Entreprises) et Gestion à l'Université Paris Nanterre, je cherche un stage à partir du <strong>1<sup>er</sup> avril 2026</strong>.
+          </p>
+          <p class="about-bio">
+            Passionné par l'intersection entre la tech et le business, je me prépare à évoluer vers des projets orientés <strong>intelligence artificielle</strong> et systèmes d'information.
+          </p>
+          <div class="about-langs">
+            <div class="lang-item">
+              <span class="lang-name">Anglais</span>
+              <div class="lang-bar"><div class="lang-fill" style="--w:80%"></div></div>
+              <span class="lang-level">B2 – Business</span>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name">Allemand</span>
+              <div class="lang-bar"><div class="lang-fill" style="--w:45%"></div></div>
+              <span class="lang-level">B1 – Scolaire</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section id="projets" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow reveal">Réalisations</p>
+      <h2 class="section-title reveal">Projets</h2>
+      <div class="projects-grid">
+
+        <article class="project-card reveal" style="--delay:0s">
+          <div class="card-header">
+            <span class="card-status done">Terminé</span>
+            <span class="card-icon">🌐</span>
+          </div>
+          <h3>Mini Airbnb — Application Web Django</h3>
+          <p>Développement d'une application web full-stack inspirée d'Airbnb avec le framework Django pour la gestion de locations.</p>
+          <div class="card-tags">
+            <span>Django</span><span>Python</span><span>Web</span><span>Full-Stack</span><span>Base de données</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="--delay:0.08s">
+          <div class="card-header">
+            <span class="card-status done">Terminé</span>
+            <span class="card-icon">📦</span>
+          </div>
+          <h3>PGI / Mini ERP — Adoo Sneakers</h3>
+          <p>Conception et suivi d'un mini ERP pour l'entreprise fictive Adoo Sneakers, avec livrables complets de gestion de projet (UML, cahier des charges).</p>
+          <div class="card-tags">
+            <span>Gestion de projet</span><span>UML</span><span>Cahier des charges</span><span>ERP</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="--delay:0.16s">
+          <div class="card-header">
+            <span class="card-status done">Terminé</span>
+            <span class="card-icon">📊</span>
+          </div>
+          <h3>Comparaison d'algorithmes de tri</h3>
+          <p>Benchmark et comparaison de différents algorithmes de tri (fusion, comptage, insertion…) avec visualisation graphique sous R.</p>
+          <div class="card-tags">
+            <span>R</span><span>Algorithmes</span><span>Benchmark</span><span>Visualisation</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="--delay:0s">
+          <div class="card-header">
+            <span class="card-status done">Terminé</span>
+            <span class="card-icon">🤖</span>
+          </div>
+          <h3>Résumé d'articles via Web Scraping &amp; LLM</h3>
+          <p>Application de web scraping pour extraire des articles tendances, puis utilisation d'un LLM pour générer des résumés automatiques.</p>
+          <div class="card-tags">
+            <span>Web Scraping</span><span>LLM</span><span>Python</span><span>NLP</span><span>API</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="--delay:0.08s">
+          <div class="card-header">
+            <span class="card-status done">Terminé</span>
+            <span class="card-icon">🌍</span>
+          </div>
+          <h3>Étude socioprofessionnelle des immigrés en France</h3>
+          <p>Analyse de données open data sur Excel pour étudier la situation socioprofessionnelle des immigrés : origines, emploi, inégalités H/F.</p>
+          <div class="card-tags">
+            <span>Excel</span><span>Open Data</span><span>Analyse de données</span><span>Statistiques</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="--delay:0.16s">
+          <div class="card-header">
+            <span class="card-status done">Terminé</span>
+            <span class="card-icon">🌳</span>
+          </div>
+          <h3>Manipulation et transformation d'AST</h3>
+          <p>Manipulation et transformation d'arbres syntaxiques abstraits (AST) dans le cadre d'un cours de compilation et traitement de langages.</p>
+          <div class="card-tags">
+            <span>AST</span><span>Compilation</span><span>Parsing</span><span>Transformation</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="--delay:0s">
+          <div class="card-header">
+            <span class="card-status done">Terminé</span>
+            <span class="card-icon">📁</span>
+          </div>
+          <h3>Portfolio numérique — Systèmes d'Information</h3>
+          <p>Portfolio numérique regroupant l'ensemble des projets réalisés durant le cours de Systèmes d'Information.</p>
+          <div class="card-tags">
+            <span>Portfolio</span><span>SI</span><span>Documentation</span>
+          </div>
+          <a href="https://stevenkml.github.io/Portfolio_L3/" target="_blank" class="card-link">Voir le site →</a>
+        </article>
+
+        <article class="project-card reveal in-progress" style="--delay:0.08s">
+          <div class="card-header">
+            <span class="card-status wip">En cours</span>
+            <span class="card-icon">💰</span>
+          </div>
+          <h3>Visualisation Open Data — Paradis fiscaux</h3>
+          <p>Analyse et visualisation de données ouvertes sur les paradis fiscaux et les personnes impliquées.</p>
+          <div class="card-tags">
+            <span>Open Data</span><span>Visualisation</span><span>Finance</span><span>Analyse</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal upcoming" style="--delay:0.16s">
+          <div class="card-header">
+            <span class="card-status soon">À venir</span>
+            <span class="card-icon">💬</span>
+          </div>
+          <h3>Chatbot Julia — Service client IA</h3>
+          <p>Développement d'un chatbot nommé Julia pour automatiser le service client et répondre aux besoins des utilisateurs.</p>
+          <div class="card-tags">
+            <span>Chatbot</span><span>IA</span><span>NLP</span><span>Service client</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCES -->
+  <section id="experiences" class="section">
+    <div class="container">
+      <p class="section-eyebrow reveal">Parcours</p>
+      <h2 class="section-title reveal">Expériences &amp; Formation</h2>
+      <div class="timeline">
+
+        <div class="timeline-group">
+          <h3 class="timeline-group-title reveal">Formation</h3>
+
+          <div class="timeline-item reveal" style="--delay:0.05s">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2023 — En cours</div>
+            <div class="tl-content">
+              <h4>Double Licence MIAGE &amp; Économie-Gestion</h4>
+              <p class="tl-org">Université Paris Nanterre – Haute-Seine (92)</p>
+              <p class="tl-desc">Algorithme, POO, Systèmes d'information, Base de données, Web, Comptabilité, Analyses financières, Probabilités, Statistiques, Marketing digital, Open Data.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal" style="--delay:0.1s">
+            <div class="tl-dot"></div>
+            <div class="tl-date">2023</div>
+            <div class="tl-content">
+              <h4>Baccalauréat — Mathématiques, SES, Physique-Chimie</h4>
+              <p class="tl-org">Classe européenne · Mention Assez Bien</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-group">
+          <h3 class="timeline-group-title reveal">Expériences professionnelles</h3>
+
+          <div class="timeline-item reveal" style="--delay:0.05s">
+            <div class="tl-dot"></div>
+            <div class="tl-date">05 – 07 / 2025</div>
+            <div class="tl-content">
+              <h4>Assistant Administratif et Comptable</h4>
+              <p class="tl-org">KR Services – Vacataire</p>
+              <p class="tl-desc">Préparation et envoi des factures clients, démarches administratives (mairies, services publics).</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal" style="--delay:0.1s">
+            <div class="tl-dot"></div>
+            <div class="tl-date">10/2019 – 04/2020</div>
+            <div class="tl-content">
+              <h4>Assistant prototypage et impression 3D <span class="tl-badge">Stage</span></h4>
+              <p class="tl-org">Centre d'Information et d'Initiative – Deuil-la-Barre (95)</p>
+              <p class="tl-desc">Création et impression 3D, programmation de microcontrôleurs, modélisation 3D, maintenance informatique.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal" style="--delay:0.15s">
+            <div class="tl-dot tl-dot-alt"></div>
+            <div class="tl-date">09/2023 — Aujourd'hui</div>
+            <div class="tl-content">
+              <h4>Cours particuliers</h4>
+              <p class="tl-org">Indépendant</p>
+              <p class="tl-desc">Suivi régulier de collégiens et lycéens avec réajustement des méthodes pédagogiques.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal" style="--delay:0.2s">
+            <div class="tl-dot tl-dot-alt"></div>
+            <div class="tl-date">01/2016 — Aujourd'hui</div>
+            <div class="tl-content">
+              <h4>Bénévolat</h4>
+              <p class="tl-org">Coptic Maraude – Paris</p>
+              <p class="tl-desc">Distribution de repas, visites en EHPAD d'Île-de-France, tri de vêtements pour redistribution.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCES -->
+  <section id="competences" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow reveal">Savoir-faire</p>
+      <h2 class="section-title reveal">Compétences</h2>
+      <div class="skills-grid">
+
+        <div class="skill-block reveal" style="--delay:0s">
+          <div class="skill-icon">⚙️</div>
+          <h3>Langages</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>Java</span><span>C</span><span>SQL</span><span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-block reveal" style="--delay:0.08s">
+          <div class="skill-icon">🛠️</div>
+          <h3>Outils &amp; Logiciels</h3>
+          <div class="skill-tags">
+            <span>VS Code</span><span>GitHub</span><span>Jupyter</span><span>Django</span><span>Odoo</span><span>Anaconda</span><span>Suite Office</span><span>Suite Adobe</span>
+          </div>
+        </div>
+
+        <div class="skill-block reveal" style="--delay:0.16s">
+          <div class="skill-icon">🤖</div>
+          <h3>IA &amp; Data</h3>
+          <div class="skill-tags">
+            <span>Machine Learning</span><span>Analyse de données</span><span>ChatGPT</span><span>Copilot</span><span>Gemini</span><span>Claude</span><span>Mistral</span>
+          </div>
+        </div>
+
+        <div class="skill-block reveal" style="--delay:0.24s">
+          <div class="skill-icon">🧠</div>
+          <h3>Soft Skills</h3>
+          <div class="skill-tags">
+            <span>Autonomie</span><span>Esprit analytique</span><span>Curiosité</span><span>Relations interpersonnelles</span><span>Sens des responsabilités</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-wrap reveal">
+        <p class="section-eyebrow">Disponible dès avril 2026</p>
+        <h2 class="section-title">Travaillons ensemble</h2>
+        <p class="contact-sub">Je recherche un stage en gestion de projets IT ou digitalisation en Île-de-France. N'hésitez pas à me contacter !</p>
+        <div class="contact-cards">
+          <a href="mailto:stevenkamel05@gmail.com" class="contact-card">
+            <span class="cc-icon">✉</span>
+            <span class="cc-label">Email</span>
+            <span class="cc-value">stevenkamel05@gmail.com</span>
+          </a>
+          <a href="tel:0771820205" class="contact-card">
+            <span class="cc-icon">📞</span>
+            <span class="cc-label">Téléphone</span>
+            <span class="cc-value">07 71 82 02 05</span>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="contact-card">
+            <span class="cc-icon">💼</span>
+            <span class="cc-label">LinkedIn</span>
+            <span class="cc-value">Voir le profil →</span>
+          </a>
+          <a href="https://github.com/stevenkml" target="_blank" class="contact-card">
+            <span class="cc-icon">🐙</span>
+            <span class="cc-label">GitHub</span>
+            <span class="cc-value">stevenkml →</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Steven KAMEL · Étudiant MIAGE · Paris</p>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // Reveal on scroll
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          const delay = e.target.style.getPropertyValue('--delay') || '0s';
+          setTimeout(() => e.target.classList.add('visible'),
+            parseFloat(delay) * 1000);
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => observer.observe(el));
+
+    // Active nav link
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 120) current = s.id;
+      });
+      navLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    });
+  </script>
+</body>
+</html>
